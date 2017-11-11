@@ -9,17 +9,25 @@ This a simple script where you can get the price of most crypto currencies like 
 import pybtc
 price = pybtc.Get_Price('BTC') # to get Bitcoin current price in USD
 print(price)
+
+>>> 6241.43
+
 ```
 for EURO 
 ```python
 
-price = pybtc.Get_Price('BTC',currency='EUR')
+>>> price = pybtc.Get_Price('BTC',currency='EUR')
+>>> price
+5395.02
+>>> 
+
+
 ```
 additional option if you want full detail of the current price
 
 ```python
 
-price = pybtcGet_Price('BTC',full=1)
+>>>price = pybtc.Get_Price('BTC',full=1)
 
 >>> (6226.88, 6477.2, 6834.57, -250.3199999999997, 'Sat Nov 11 22:53:23 2017', -3.864632866053228)
 
