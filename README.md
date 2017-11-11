@@ -21,6 +21,8 @@ additional option if you want full detail of the current price
 
 price = pybtcGet_Price('BTC',full=1)
 
+>>> (6226.88, 6477.2, 6834.57, -250.3199999999997, 'Sat Nov 11 22:53:23 2017', -3.864632866053228)
+
 ```
 This will give you (PRICE,OPEN24HOUR,HIGH24HOUR,CHANGE24HOUR, LASTUPDATE,CHANGEPCT24HOUR)
 
